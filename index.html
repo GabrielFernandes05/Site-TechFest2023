@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="inicio" class="background">
+        <header>
+            <h1 id="titleh1">TechFest 2k23 - 11/09/2023</h1>
+            <ul class="links">
+                <li>
+                    <a href="index.html#inicio">Inicio</a>
+                    <a href="index.html#cronograma">Cronograma</a>
+                    <a href="index.html#sobrenos">Sobre Nos</a>
+                    <a href="index.html#Informações">Informações</a>
+                    <a href="index.html#inscrevase">Inscreva-Se</a>
+                </li>
+            </ul> <!-- links -->
+        </header>
+        <hr>
+        <h2>Palestrantes</h2>
+        <div class="Palestrantes">
+            <div class="Palestrante1">
+                <img src="palestrante-1.png" alt="">
+                <h3>João Pedro Yamaguti</h3>
+            </div>
+            <div class="Palestrante2">
+                <img src="palestrante-1.png" alt="">
+                <h3>João Pedro Yamaguti(Clone)</h3>
+            </div>
+        </div> <!-- Palestrantes -->
+        <div class="show">
+            <img src="alok.png" alt="alok">
+            <img src="alokshow.png" alt="alokshow">
+        </div> <!-- show  imagens -->
+    </div> <!-- background -->
+
+    <section id="cronograma" class="section-1">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+        </style>
+        <!--This is the main container that contains the whole timeline.-->
+        <section class="design-section">
+            <div class="timeline">
+
+                <!--Well, The reason for this div is to fill space.
+This space is technically used for keeping dates,
+but I didn't find the need for dates. However, I'll provide
+you the styling for dates, so that you can use it if you
+wanted to.-->
+                <div class="timeline-empty">
+                </div>
+
+                <!--This is the class where the timeline graphics are
+housed in. Note that we have timeline-circle
+here for that pointer in timeline.-->
+
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-component timeline-content">
+                    <h3 class="texttimelineh3"><span class="span1">Parte 1:</span> <span
+                            class="span2">Aquecimento</span> <span class="span1">(18:00 - 20:00)</span> </h3>
+                    <p class="texttimelineP"><br> 18:00 - Abertura dos portões <br>
+                        18:30 - DJ local começa a tocar sets de aquecimento <br>
+                        19:30 - Apresentações de dança e performances ao vivo para animar a multidão</p>
+                </div>
+                <div class="timeline-component timeline-content">
+                    <h3 class="texttimelineh3"><span class="span1">Parte 2:</span> <span class="span2">Festa
+                            Principal</span> <span class="span1">(20:00 - 00:00)</span></h3>
+                    <p class="texttimelineP"><br>20:00 - DJ principal começa a tocar <br>
+                        21:30 - Show de luzes e pirotecnia <br>
+                        22:00 - Segundo DJ principal começa a tocar <br>
+                        23:30 - Mais shows de luzes e pirotecnia </p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty">
+                </div>
+
+                <div class="timeline-empty">
+                </div>
+
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class=" timeline-component timeline-content">
+                    <h3 class="texttimelineh3"><span class="span1">Parte 3:</span> <span
+                            class="span2">Descontração</span> <span class="span1">(00:00 - 02:00)</span></h3>
+                    <p class="texttimelineP"><br>
+                        00:00:00 - DJ de encerramento começa a tocar sets mais relaxantes <br>
+                        01:00 - Última rodada de bebidas no bar <br>
+                        01:30 - Mensagem de agradecimento aos participantes e anúncio do encerramento <br>
+                        02:00 - Fim da festa</p>
+                </div>
+
+            </div>
+            </div>
+        </section>
+    </section> <!-- section-1 -->
+
+    <section id="sobrenos" class="section-2">
+        <div class="fundopreto">
+            <h1 id="textsobrenos">Sobre Nós</h1>
+            <div class="sobrenos-container">
+                <img src="yamaluta.png" alt="yamaluta">
+                <div class="sobrenos-text">
+                    <h2>BIOGRAFIA DE YAMAGUTI</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolorum, repudiandae corrupti
+                        quos, praesentium reprehenderit ullam ab excepturi quia inventore provident cum nemo quod vel
+                        dolores odit, dolorem autem? Labore?
+                        <br>Reserva da seleção Brasileira de Taekwondo
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- section-2 -->
+
+    <section id="Informações" class="section-3">
+        <h3>Informações</h3>
+        <div class="informaçoes-conteiner1">
+            <div class="mapdiv">
+                <h1>LOCAL DA FESTA</h1>
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d548.302542426047!2d-43.66401655627983!3d-22.409252166339652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9930cf7c22de05%3A0xc63f64f24c89cbf6!2sSeverino%20Sombra%20University!5e0!3m2!1sen!2sbr!4v1694444331310!5m2!1sen!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="hospitalidade">
+                <h1>HOSPITALIDADE</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus eos placeat consequuntur aut
+                    asperiores maxime quo, iusto eligendi cumque praesentium consectetur velit, architecto ratione expedita.
+                    Sed nihil corporis nam optio?</p>
+            </div>
+        </div>
+    </section> <!-- section-3 -->
+
+    <section id="inscrevase" class="section-4">
+        <div class="inscrevase-container">
+            <h1>INSCREVA-SE</h1>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfftrc86tTfZUV-7JpKBA1phAGZAV37KjKFi1kMTawlf-Lfsw/viewform?embedded=true" width="640" height="851" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section> <!-- section-4 -->
+
+    <div class="finaldapagina">
+        <ul class="final">
+            <li>
+                <a href="index.html#inicio">
+                    <ion-icon name="chevron-up-outline"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer><p>&copy; Gabriel Fernandes</p></footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
